@@ -133,7 +133,7 @@ export default function Navbar() {
               <div className="ml-4 flex lg:ml-0">
                 <Link to={'/'} className='flex'>
                   <div className="flex ">
-                    <h1 className=' text-2xl font-bold text-black  px-2 py-1 rounded' style={{ color: mode === 'dark' ? 'white' : '', }}>VK-STORE</h1>
+                    <h1 className=' text-2xl font-bold text-black  px-2 py-1 rounded' style={{ color: mode === 'dark' ? 'white' : '', }}>QuickShop</h1>
                   </div>
                 </Link>
               </div>
@@ -169,14 +169,6 @@ export default function Navbar() {
                       className="block h-auto w-5 flex-shrink-0"
                     />
                     <span className="ml-3 block text-sm font-medium" style={{ color: mode === 'dark' ? 'white' : '', }}>INDIA</span>
-                  </a>
-                </div>
-                <div className="hidden lg:ml-8 lg:flex">
-                  <a href="#" className="flex items-center text-gray-700 ">
-                    <img
-                      className="inline-block w-10 h-10 rounded-full"
-                      src="./images/men.jpg"
-                      alt="Dan_Abromov" />
                   </a>
                 </div>
 
